@@ -1,0 +1,53 @@
+body {
+    height: 450px;
+    width: 230px;
+}
+
+#infos
+{
+    width: 100px;
+}
+
+.form-control {
+    width: 150px;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+
+
+div.boximg {
+    text-align:center;
+    white-space:nowrap;
+}
+
+#img {
+  border: 5px solid black;
+  margin: 15px;
+  margin-top: 15px;
+}
+
+#nchaine {
+  margin-left: auto;
+}
+
+
+img.imgg {
+    margin-top: 20px;
+    vertical-align:middle;
+    margin-left: 19px;
+    height: 40px;
+    width: 40px;
+}
+
+p.bottom {
+  margin-top: 20px;
+
+}
+
+#ok {
+    margin-left: 55px;
+}
