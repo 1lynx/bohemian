@@ -8,6 +8,7 @@ function ex(info)
 		document.getElementById("nchaine").innerHTML = info.channel;
 		document.getElementById("moins").addEventListener("click", remcent, false);
 		document.getElementById("plus").addEventListener("click", addcent, false);
+		document.getElementById('channel').style.display = 'block';
 	}
 	else
 		document.getElementById("nchaine").innerHTML = "Pas de chaine";
@@ -21,9 +22,10 @@ function load_done()
 
 function addcent()
 {
+
 	var el = document.getElementById("amnt");
 	var val = parseFloat(el.value);
-	if (val < 1)
+	if (val < 10)
 		val += 0.05;
 	el.value = Math.round(val*100)/100;
 }
