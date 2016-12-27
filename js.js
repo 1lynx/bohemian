@@ -12,6 +12,8 @@ function ex(info)
 	}
 	else
 		document.getElementById("nchaine").innerHTML = "Pas de chaine";
+		document.getElementById("moins").addEventListener("click", remcent, false);
+		document.getElementById("plus").addEventListener("click", addcent, false);
 }
 
 function load_done()
